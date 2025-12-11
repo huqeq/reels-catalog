@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Каталог блогеров | Блогеры</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="bloggers">
+  <div class="background-blur"></div>
+  <div class="gradient-orb orb-1"></div>
+  <div class="gradient-orb orb-2"></div>
+  <div class="gradient-orb orb-3"></div>
+  <div class="noise-overlay"></div>
+
+  <header class="main-header">
+    <div class="logo">
+      <span class="logo-accent">Influence</span>Hub
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Главная</a>
+      <a href="bloggers.html" class="nav-link active">Блогеры</a>
+    </nav>
+  </header>
+
+  <main class="bloggers-page">
+    <section class="page-intro glass reveal">
+      <h1 class="page-title">Каталог блогеров</h1>
+      <p class="page-subtitle">
+        Выберите блогера, посмотрите базовые цены на рекламу в Reels и Stories.
+        Структура каталога простая: карточки можно масштабировать под десятки и сотни профилей.
+      </p>
+    </section>
+
+    <section class="bloggers-grid-wrapper">
+      <div id="bloggersGrid" class="bloggers-grid">
+        <!-- Карточки будут сгенерированы автоматически из bloggers.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <span>© 2025 InfluenceHub. Каталог блогеров для рекламы.</span>
+  </footer>
+
+  <script src="./bloggers.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
